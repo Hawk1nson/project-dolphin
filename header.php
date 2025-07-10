@@ -65,7 +65,7 @@ if (!isset($page_title)) {
                     </div>
                 </li>
                 <!-- "Celebrate" button added to toolbar - FP2 -->
-                <li class="nav-item active"><a class="nav-link" id="header" href="celebrate.php">Celebrate<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item active"><a class="nav-link" id="header" href="celebrations.php">Celebrate<span class="sr-only">(current)</span></a></li>
                 <li class="nav-item active"><a class="nav-link" id="header" href="list_dresses.php">Dresses<span class="sr-only">(current)</span></a></li>
                 <li class="nav-item active"><a class="nav-link" id="header" href="artistShowcase.php">Artists<span class="sr-only">(current)</span></a></li>
                 <li class="nav-item active"><a class="nav-link" id="header" href="nomination.php">Nomination<span class="sr-only">(current)</span></a></li>
