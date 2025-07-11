@@ -11,6 +11,13 @@ error_reporting(E_ALL);
 
 include('db_configuration.php');
 
+// Database connection info
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "abcd_db";
+$conn = new mysqli($host, $user, $pass, $db);
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $description = $_POST['description'];
@@ -24,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "INSERT INTO celebrations_tbl (title, description, resource_type, celebration_type, celebration_date, tags, resource_url, image)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
-    $stmt = $conn->prepare($sql);
+    $stmt = $conn->prepare($db);
     $stmt->bind_param("ssssssss", $title, $description, $resource_type, $celebration_type, $celebration_date, $tags, $resource_url, $image);
 
     if ($stmt->execute()) {

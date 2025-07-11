@@ -33,15 +33,15 @@ $result = $conn->query($sql);
 <?php include('header.php'); ?>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/list_dresses.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/list_celebrations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 
-<div class="container text-center mt-5">
+</head>
+<br><br>
+<div class="container-fluid">
     <h2 id="title">Celebrations</h2><br>
-    
-    <div id="buttonContainer" style="margin-bottom: 20px;">
-        <button><a class="btn btn-sm" href="create_celebration.php">Add a Celebration</a></button>
-    </div>
 
     <div class="row justify-content-center">
         <?php
@@ -74,5 +74,3 @@ $result = $conn->query($sql);
         ?>
     </div>
 </div>
-
-<?php include('footer.php'); ?>

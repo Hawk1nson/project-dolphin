@@ -1,4 +1,4 @@
-<html>
+  <html>
 
 <head>
 <link href="css/display_the_resource.css" rel="stylesheet">

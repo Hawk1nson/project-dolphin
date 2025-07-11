@@ -90,15 +90,16 @@ $GLOBALS['data'] = mysqli_query($db, $query);
             <!-- toggle buttons -->
             <div class="toggles">
                 <strong> Toggle column: </strong>
-                <a id="toggle" class="toggle-vis" data-column="0">Title</a> - 
-                <a id="toggle" class="toggle-vis" data-column="1">Description</a> - 
-                <a id="toggle" class="toggle-vis" data-column="2">Resource Type</a> - 
-                <a id="toggle" class="toggle-vis" data-column="3">Celebration Type</a> - 
-                <a id="toggle" class="toggle-vis" data-column="4">Date</a> - 
-                <a id="toggle" class="toggle-vis" data-column="5">Tags</a> - 
-                <a id="toggle" class="toggle-vis" data-column="6">Image</a> - 
-                <a id="toggle" class="toggle-vis" data-column="7">Resource URL</a> - 
-                <a id="toggle" class="toggle-vis" data-column="8">Display</a>
+                <a id="toggle" class="toggle-vis" data-column="0"></a>
+                <a id="toggle" class="toggle-vis" data-column="1">Title</a> - 
+                <a id="toggle" class="toggle-vis" data-column="2">Description</a> - 
+                <a id="toggle" class="toggle-vis" data-column="3">Resource Type</a> - 
+                <a id="toggle" class="toggle-vis" data-column="4">Celebration Type</a> - 
+                <a id="toggle" class="toggle-vis" data-column="5">Date</a> - 
+                <a id="toggle" class="toggle-vis" data-column="6">Tags</a> - 
+                <a id="toggle" class="toggle-vis" data-column="7">Image</a> - 
+                <a id="toggle" class="toggle-vis" data-column="8">Resource URL</a> - 
+                <a id="toggle" class="toggle-vis" data-column="9">Display</a>
             </div>
         </table>
     </div>

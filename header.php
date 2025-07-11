@@ -77,7 +77,7 @@ if (!isset($page_title)) {
                 <?php if (isset($_SESSION['role'])) { ?>
                     <?php if ($_SESSION['role'] == 'admin') { ?>
                         <li class="nav-item active"><a class="nav-link" id="header" href="admin.php">Admin<span class="sr-only">(current)</span></a></li>
-                    <?php } ?>
+                    <?php } ?>  
 
                     <li class="nav-item active"><a class="nav-link" id="header" href="logout.php">Logout<span class="sr-only">(current)</span></a></li>
                 <?php } else { ?>
