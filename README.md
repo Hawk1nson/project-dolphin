@@ -1,39 +1,26 @@
-# ABCD  
-**A Bite of Culture in Dresses (ABCD)**
+# Final Project - ICS 325
+# TEAM DOLPHIN  🐬
 
-## 🚀 Setup Instructions
+This repository contains the current working version of our group project.
+Nearly all of FP3 is done (few tweaks need to be made to be 100% but almost there).
+Also about halfway done with FP4 (due 7/17/25), we'll finish it this week before we meet for class on Thursday, July 17.
 
-Follow these steps to deploy the ABCD web application locally using XAMPP:
+## 📥 Download Instructions
 
-### 1. 📥 Download the Repository
-Download the `abcd.zip` and extract it to your XAMPP `htdocs` folder:
-- Location: `xampp/htdocs/abcd2`
-- Repository URL: [https://github.com/sjasthi/abcd2](https://github.com/sjasthi/abcd2)
-- Click the green **"Code"** button, then choose **"Download ZIP"**
+1. Click the green **"Code"** button at the top of this page.
+2. Select **"Download ZIP"**.
+3. Unzip the file and open the folder in your preferred editor (e.g., VS Code or XAMPP's `htdocs` folder).
 
-### 2. 🔥 Launch XAMPP
-Start the following services from the XAMPP Control Panel:
-- **Apache Server**
-- **MySQL Server**
+## ⚙️ What’s Included
 
-### 3. 🗄️ Create the Database
-- Open **phpMyAdmin** in your browser (usually at [http://localhost/phpmyadmin](http://localhost/phpmyadmin))
-- Create a new database named: `abcd_db`
+- All updated PHP, HTML, CSS, JS, and database files
+- Updated SQL DB file (abcd_db) - database includes a full 
+- Fully working version (through nearly all of FP3) as of **July 14**
+- Image files located in images/celebrations for celebrations listed in 'celebrations_tbl'
 
-### 4. 🧩 Import the SQL File
-- Navigate to `xampp/htdocs/abcd/sql/abcd_db.sql`
-- Import this file into the newly created `abcd_db` database
+## 💡 Notes
 
-### 5. 🌐 Launch the Application
-Open your browser and go to:
-[http://localhost/abcd2](http://localhost/abcd2)
+- No need to push changes yet. We'll sync up on version control later.
+- If you have questions about any of this, please reach out to me (Andrew)
 
-### 6. 🔐 Admin Login
-To access admin features, use the following credentials:
 
-- **Username:** `cs320@silcmn.com`  
-- **Password:** `12345`
-
----
-
-Enjoy exploring **A Bite of Culture in Dresses (ABCD)**!
